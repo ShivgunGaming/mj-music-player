@@ -23,13 +23,13 @@ This Python program allows you to play some of the best songs by Michael Jackson
 - `import pygame`: Used for playing audio files.
 - `pygame.init()`: Initializes the pygame module.
 - `play_audio(audio_file)`: Function to play the audio.
-- `michael_jackson_songs`: Dictionary containing Michael Jackson songs with their file paths.
+- `michael_jackson_songs`: Dictionary containing Michael Jackson songs with their file names.
 - The program lists the available songs and prompts the user to choose one.
 - If the chosen song exists, it checks if the corresponding audio file exists, then plays the song.
 
 ## Adding More Songs
 
-- To add more songs, simply add them to the `michael_jackson_songs` dictionary with their file paths.
+- To add more songs, simply add them to the `michael_jackson_songs` dictionary with their file names.
 - Ensure the audio files are in the correct format and placed in the same directory as the program.
 
 ## Notes
